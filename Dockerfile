@@ -1,7 +1,7 @@
 FROM alpine:3.10
 
-ADD Trojan.sh /Trojan.sh
+ADD 1.sh /1.sh
 
-RUN chmod 0755 /Trojan.sh
+RUN chmod 0755 /1.sh
 
-CMD /Trojan.sh
+CMD /1.sh
